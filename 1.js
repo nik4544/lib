@@ -3,32 +3,7 @@ console.log('hi');
 x = parseInt(prompt("Введите число:"))
 y = parseInt(prompt("Введите число:"))
 z = parseInt(prompt("Введите число:"))
-/*
-if (x % 2 === 0) {
-    let func1 = (x) => expression;
-    console.log(x ** 2);
-}
-else {
-    let func2 = (x) => expression;
-    console.log(x ** 3);
-}
-if (y % 2 === 0) {
-    let func1 = (y) => expression;
-    console.log(y ** 2);
-}
-else {
-    let func2 = (y) => expression;
-    console.log(y ** 3);
-}
-if (z % 2 === 0) {
-    let func1 = (z) => expression;
-    console.log(z ** 2);
-}
-else {
-    let func2 = (z) => expression;
-    console.log(z ** 3);
-}
-*/
+
 
 if (x % 2 === 0) {
     let func1 = (x) => x ** 2;
